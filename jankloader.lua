@@ -28,7 +28,7 @@ function jankloader.loadMap()
 	local file2 = file:read()
 	jankloader.mapInfo.et.x = file2:match("√[^%[]*%[([^,]+)")
 	jankloader.mapInfo.et.y = file2:match("√[^%[]*%[[^,]+,([^%]]+)%]█")
-	-- this is some of the jank:tm: iest pieces of code ever
+	-- this is some of the jank™ iest pieces of code ever
 	jankloader.mapInfo.w1.tl = file2:match("█%[(.-),.-,.-,.-,.-%]ⁿ")
 	jankloader.mapInfo.w1.tr = file2:match("█%[.-,(.-),.-,.-,.-%]ⁿ")
 	jankloader.mapInfo.w1.bl = file2:match("█%[.-,.-,(.-),.-,.-%]ⁿ")
